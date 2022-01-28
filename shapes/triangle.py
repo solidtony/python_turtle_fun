@@ -3,8 +3,10 @@ from turtle import Vec2D,Turtle,setpos,penup,pendown
 from dataclasses import dataclass
 from typing import List
 
+from .shape import Shape
+
 @dataclass
-class Triangle:
+class Triangle(Shape):
     """Creates a triangle and draws
 
     Params:
